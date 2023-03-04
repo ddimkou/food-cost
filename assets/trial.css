@@ -1,0 +1,92 @@
+body {
+  background-color: #7bd0b3;
+}
+.trialbox-top {
+  margin-top: 1em;
+}
+.trialbox {
+  width: 60vw;
+  border: 5px;
+  border-radius: 1.5em;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-color: rgb(225, 230, 230);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generator .price-of-ingredient {
+  min-width: 55px;
+  text-align: center;
+}
+.trialbox .price-per-kg {
+  min-width: 120px;
+}
+.generator .amount-of-ingredient {
+  text-align: center;
+  min-width: 55px;
+}
+.food-cost-title {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ingredient-name {
+  width: 381px;
+  margin: 5px auto;
+  text-align: center;
+}
+.amount-used {
+  min-width: 190px;
+  margin-bottom: 20px;
+  text-align: end;
+}
+.price-per-kg {
+  text-align: end;
+}
+button.btn-generate {
+  margin: 1em;
+  padding: 0.5em;
+  background: #5df0b3;
+  border-radius: 15px;
+  box-shadow: #17833b 0 10px 20px -10px;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+.result {
+  background-color: blue;
+}
+.trialbox-footer {
+  text-align: center;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 768px) {
+  .trialbox {
+    width: auto;
+  }
+  .trialbox .price-per-kg {
+    flex: 0 0 30%;
+  }
+
+  .trialbox .amount-used {
+    flex: 0 0 70%;
+  }
+}

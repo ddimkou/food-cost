@@ -1,0 +1,48 @@
+.main {
+  background-color: #dfdfdf;
+}
+.landing {
+  min-height: 100vh;
+  background-color: #7bd0b3;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15em;
+  font-size: 2em;
+}
+.main-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.landing .center {
+  font-size: 3em;
+  margin: auto;
+  margin-top: 10em;
+  max-width: 60%;
+}
+.about-us {
+  font-size: 1.5em;
+  padding: 1em;
+  margin: 3em;
+  text-align: center;
+}
+.reviews {
+  background-color: #7bd0b3;
+  padding: 2em;
+}
+
+.reviews h3 {
+  margin-top: 2em;
+}
+.reviews .row.text-center {
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .about-us {
+    font-size: 1.1em;
+  }
+}

@@ -1,0 +1,30 @@
+.contact-form {
+  margin-top: 5em;
+}
+form {
+  padding: 30px;
+  border-radius: 10px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btn-primary {
+  margin: 1em;
+  padding: 0.5em;
+  background: #5df0b3;
+  border-radius: 15px;
+  box-shadow: #17833b 0 10px 20px -10px;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
